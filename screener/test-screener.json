@@ -1,0 +1,115 @@
+{
+    "waves": [],
+    "survey": {
+        "code": "test-screener",
+        "isScored": true,
+        "hasHelpImages": false,
+        "replacements": [],
+        "repeatMax": 1,
+        "id": 345,
+        "questions": [
+            {
+                "code": "email_within_project",
+                "type": "email",
+                "survey": {
+                    "moduleCode": "screener"
+                },
+                "help": "",
+                "text": "Enter your email",
+                "score": "",
+                "title": "",
+                "hidden": false,
+                "default": "",
+                "pattern": "",
+                "required": false,
+                "subscale": "",
+                "condition": "",
+                "consensus": false,
+                "order_idx": 1,
+                "includeCondition": "",
+                "smsText": "Enter your email"
+            },
+            {
+                "code": "phone_within_project",
+                "type": "phone",
+                "survey": {
+                    "moduleCode": "screener"
+                },
+                "help": "",
+                "text": "Enter your phone",
+                "score": "",
+                "title": "",
+                "hidden": false,
+                "default": "",
+                "pattern": "",
+                "required": false,
+                "subscale": "",
+                "condition": "",
+                "consensus": false,
+                "order_idx": 2,
+                "includeCondition": "",
+                "smsText": "Enter your phone"
+            },
+            {
+                "code": "plain_password",
+                "type": "text",
+                "survey": {
+                    "moduleCode": "screener"
+                },
+                "help": "",
+                "text": "Set password",
+                "score": "",
+                "title": "",
+                "hidden": false,
+                "default": "",
+                "pattern": "",
+                "required": false,
+                "subscale": "",
+                "condition": "",
+                "consensus": false,
+                "order_idx": 3,
+                "includeCondition": "",
+                "smsText": "Set password"
+            },
+            {
+                "code": "agree",
+                "type": "radio",
+                "survey": {
+                    "moduleCode": "screener"
+                },
+                "help": "",
+                "text": "Do you agree to T&C?",
+                "score": "",
+                "hidden": false,
+                "choices": [
+                    {
+                        "url": "",
+                        "text": "Yes",
+                        "score": "1",
+                        "value": "1"
+                    },
+                    {
+                        "url": "",
+                        "text": "No",
+                        "score": "",
+                        "value": "2"
+                    }
+                ],
+                "default": "",
+                "required": false,
+                "subscale": "",
+                "condition": "",
+                "consensus": false,
+                "order_idx": 4,
+                "otherLabel": "",
+                "includeCondition": "",
+                "smsText": "Do you agree to T&C? (1=Yes,2=No)"
+            }
+        ],
+        "marking": [],
+        "moduleCode": "screener",
+        "subscales": [],
+        "consensus": false,
+        "showHelpImages": true
+    }
+}
